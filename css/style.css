@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.big-wrapper {
+  height: 100vh;
+  background-image: url("../img/84977.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.big-wrapper .navbar {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.big-wrapper .container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.big-wrapper .container h1 {
+  padding-top: 30%;
+  color: #e2e2e2;
+  letter-spacing: 10px;
+  word-spacing: 30px;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.big-wrapper .container h1:hover {
+  padding-top: 28%;
+  color: orangered;
+  font-size: 90px;
+  -webkit-transition: all 2s ease-in-out 1ms;
+  transition: all 2s ease-in-out 1ms;
+}
+
+.big-wrapper .container p {
+  margin-top: 65px;
+  color: darkgrey;
+  font-size: 17px;
+}
+
+.big-wrapper .container p b {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.navbar {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.characters {
+  padding: 130px 0px;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+  background-image: url("../img/mb_story-the-avengers_launch_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.characters h1 {
+  margin-bottom: 70px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 7px 7px 10px black;
+}
+
+.characters h1:hover {
+  font-size: 55px;
+  color: silver;
+  -webkit-transition: all 1s ease-in-out 1ms;
+  transition: all 1s ease-in-out 1ms;
+}
+
+.characters .hero {
+  margin: 0px 25px;
+  padding: 0;
+  -webkit-box-shadow: 15px 15px 15px 1px black;
+          box-shadow: 15px 15px 15px 1px black;
+}
+
+.characters .hero:hover {
+  width: 350px;
+  -webkit-transition: all 1s ease-in-out 1ms;
+  transition: all 1s ease-in-out 1ms;
+}
+
+.characters img {
+  width: 100%;
+}
+
+.characters p {
+  padding: 30px;
+  font-size: 23px;
+  color: black;
+  text-shadow: 7px 7px 7px silver;
+  margin: 0;
+}
+
+.characters p:hover {
+  font-size: 25px;
+  color: silver;
+  -webkit-transition: all 1s ease-in-out 1ms;
+  transition: all 1s ease-in-out 1ms;
+}
+
+.iron-man {
+  background-image: url(../img/iron-man-wallpaper-hd-1080p.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.caption {
+  background-image: url(../img/caption.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.widow {
+  background-image: url(../img/widow.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.thor {
+  background-image: url(../img/thor.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.hulk {
+  background-image: url(../img/hulk.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.avenger {
+  color: darkslateblue;
+  padding: 100px;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.logo {
+  background-image: url(../img/84982.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.logo .form .form-group label {
+  font-size: large;
+  color: darkgrey;
+}
+
+.logo .form .form-group input {
+  background: transparent;
+}
+
+.map {
+  padding: 50px 0;
+  text-align: center;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.map h2 {
+  padding: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: darkslateblue;
+  padding: 100px;
+  color: darkgrey;
+}
+
+footer b {
+  font-family: 'Playfair Display SC', serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: white;
+}
+
+footer h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .big-wrapper .container h1 {
+    padding-top: 20%;
+    font-size: 45px;
+  }
+  .big-wrapper .container p {
+    font-size: 14px;
+  }
+  .characters .hero {
+    margin-top: 60px;
+    margin-top: 0 auto;
+  }
+  .characters h1:hover {
+    font-size: 50px;
+    color: silver;
+    -webkit-transition: all 1s ease-in-out 1ms;
+    transition: all 1s ease-in-out 1ms;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .big-wrapper .container h1 {
+    padding-top: 30%;
+    font-size: 20px;
+    word-spacing: 10px;
+  }
+  .big-wrapper .container h1:hover {
+    font-size: 25px;
+  }
+  .big-wrapper .container p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  .characters h1 {
+    font-size: 30px;
+  }
+  .characters h1:hover {
+    font-size: 35px;
+    color: silver;
+    -webkit-transition: all 1s ease-in-out 1ms;
+    transition: all 1s ease-in-out 1ms;
+  }
+  .avenger h1 {
+    font-size: 20px;
+  }
+  footer b {
+    font-size: 30px;
+    text-align: justify;
+  }
+}
+/*# sourceMappingURL=style.css.map */
